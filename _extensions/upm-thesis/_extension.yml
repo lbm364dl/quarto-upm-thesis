@@ -1,0 +1,31 @@
+title: "Thesis Template"
+author: "Template Maintainer"
+version: 0.1.0
+quarto-required: ">=1.7.0"
+contributes:
+  project:
+    type: book
+  formats:
+    pdf:
+      toc: true
+      number-sections: true
+      fontsize: 12pt
+      geometry: a4paper
+      include-in-header:
+        - text: |
+            \usepackage{setspace}
+      template-partials:
+        - partials/before-body.tex
+        - partials/toc.tex
+      format-resources:
+        - imgs/EscudoUPM.png
+        - imgs/EscudoETSIAAB.png
+      metadata:
+        author: "Your name"
+        upm_centre: "Your centre"
+        title: "Your title"
+        prior_studies: "Your prior studies"
+        university: "UNIVERSIDAD POLITÉCNICA DE MADRID"
+        doctoral_programme: "Your PhD name"
+        supervisor: "Your supervisor name"
+        cosupervisor: "Your cosupervisor name"
