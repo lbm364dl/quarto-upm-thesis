@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: Your PhD title
+  date: December 15, 2023
+  author:
+    name: Jane Doe
+    url: http://www.janedoe.com
+  downloads: [pdf]
+  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis accumsan ante. Quisque lorem metus, varius id urna eget, lacinia dapibus sem. Etiam laoreet, quam ac mollis congue, arcu leo dictum neque, nec euismod sem enim luctus odio. Donec condimentum tortor sit amet mollis volutpat. Donec ornare libero vel velit malesuada consectetur. Vestibulum in sem non justo dignissim congue at quis erat. Integer quis erat vitae mi maximus fringilla tristique nec odio. Morbi non ipsum sapien. Vestibulum tortor est, ultricies in eros et, bibendum iaculis justo. Cras pellentesque enim quam, id pretium lacus lacinia non. Integer velit neque, ultrices a malesuada vel, imperdiet quis enim. Quisque eu facilisis urna, ut faucibus lorem. Donec mollis turpis sed arcu venenatis interdum. Nulla facilisis tortor ac scelerisque consequat."
+  chapters:
+    - index.qmd # quarto needs index.qmd, this just loads 01_intro.qmd
+    - chapters/02_theoretical_framework.qmd
+    - chapters/03_methods.qmd
+    - chapters/04_results.qmd 
+    - chapters/05_discussion.qmd
+    - chapters/06_conclusion.qmd
+    - chapters/07_test.qmd
+    - acknowledgements.qmd
+    - references.qmd
+  appendices:
+    - appendices/A.qmd
+
+  site-url: https://nmfs-opensci.github.io/quarto-thesis/
+  repo-url: https://github.com/nmfs-opensci/quarto-thesis
+  repo-actions: [edit, source, issue]
+  search: true
+
+thesis:
+  upm_centre: "Your centre"
+  prior_studies: "Your prior studies"
+  university: "UNIVERSIDAD POLITÉCNICA DE MADRID"
+  doctoral_programme: "Your PhD name"
+  supervisor: "Your supervisor name"
+  cosupervisor: "Your cosupervisor name"
+  date: 2025
+
+bibliography: [references.bib]
+
+format:
+  upm-thesis-pdf: default

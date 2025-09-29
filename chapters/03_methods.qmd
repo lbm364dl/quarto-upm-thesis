@@ -1,0 +1,15 @@
+# Methods
+
+## Data Sources
+
+We used simulated data representing urban population growth, economic output, and ecological metrics over a 20-year period.
+
+## Model Description
+
+The model integrates economic indicators with ecological constraints. Key equations include:
+
+$$
+E_t = E_{t-1} + \alpha \cdot G_t - \beta \cdot U_t
+$$
+
+where $E_t$ is the ecological index at time $t$, $G_t$ is economic growth, and $U_t$ represents urbanization pressures.

@@ -1,0 +1,3 @@
+# Introduction
+
+Urban areas are rapidly expanding, creating pressures on local ecosystems [@knuth84]. Understanding the interaction between economic growth and ecological sustainability is crucial for long-term urban planning. This paper proposes a model to assess these trade-offs.

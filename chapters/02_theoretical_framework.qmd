@@ -1,0 +1,3 @@
+# Theoretical Framework
+
+We develop a conceptual framework that links urban economic activity with environmental indicators such as air quality, green space, and biodiversity. The model assumes that economic growth can be achieved without compromising key ecological functions, up to certain thresholds.

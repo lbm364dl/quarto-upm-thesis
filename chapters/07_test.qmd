@@ -1,0 +1,23 @@
+# Test
+
+## Section
+This is a simple placeholder for the manuscript's main document [@knuth84].
+
+```{r}
+# This is code
+a <- 1 + 2
+print(a)
+```
+
+This is new 
+
+![test image](imgs/test.png)
+
+This is new content. Please. Please accept it. Please.
+
+This is new content.
+
+```{r}
+#| echo: true
+rep(9, 10) - seq(1, 10)
+```
