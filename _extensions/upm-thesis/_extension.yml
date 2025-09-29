@@ -15,6 +15,3 @@ contributes:
       template-partials:
         - partials/before-body.tex
         - partials/toc.tex
-      format-resources:
-        - imgs/EscudoUPM.png
-        - imgs/EscudoETSIAAB.png

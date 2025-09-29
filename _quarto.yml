@@ -35,6 +35,8 @@ thesis:
   supervisor: "Your supervisor name"
   cosupervisor: "Your cosupervisor name"
   date: 2025
+  university_logo: imgs/EscudoUPM.png
+  centre_logo: imgs/EscudoETSIAAB.png
 
 bibliography: [references.bib]
 
